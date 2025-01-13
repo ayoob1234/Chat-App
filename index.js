@@ -88,9 +88,9 @@ app.delete("/chats/:id", async (req, res) => {
 
 
 // root / home router
-app.get("/", (req, res) => {
-  res.send("Welcome to mini watsapp ");
-});
+// app.get("/", (req, res) => {
+//   res.send("Welcome to mini watsapp ");
+// });
 
 //server cheak
 app.listen(port, async () => {
